@@ -8,6 +8,7 @@
 # "What is wrong with my code, why is it not running?
 # "Can you give me hints on how to start my code" (mainly did this for test cases)
 # "Did I meet all the requirements for this assignment?""
+# ALSO I REDID THE DECOMPOSITION DIAGRAM THAT I SUBMITTED OCT 6TH
 
 import csv
 
