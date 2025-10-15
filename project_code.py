@@ -43,7 +43,6 @@ def avg_body_mass_by_species_sex(data):
         groups[species_type][species_sex].append(mass) #check if the sex exists
         #print(groups)
         
-
     results = [] #print averages 
     for species_type in groups:
         for species_sex in groups[species_type]: #loops through every species and sex in groups
@@ -78,7 +77,7 @@ def avg_flipper_by_species_island(data):
             results.append((species_type, island, average))
     return results
 
-#Write results (I had generative AI help me with this part because I struggled)
+#Write results
 '''write the results of the function'''
 def write_results(filename, avg_body_mass_by_species_sex, avg_flipper_by_species_island):
     with open(filename, "w") as f:
